@@ -1,0 +1,7 @@
+#Mon Jan 30 20:50:16 SGT 2017
+base.0=C\:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_60a9221ee5d823df95cd7c2f2c62b556746eba10
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ff1a7fd9f4ebbae68d936645fb198066f25ee5eb\\classes.dex
+base.1=C\:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ff1a7fd9f4ebbae68d936645fb198066f25ee5eb
+file.0=C\:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_60a9221ee5d823df95cd7c2f2c62b556746eba10\\classes.dex

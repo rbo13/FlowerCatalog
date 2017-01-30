@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\b0kn0y\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_fbeea20fae4b56ca73111d6ee23f4d0e20aec503\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e64eb26abc33482b57121958f700f9d565feac9c">
+        <dex dex="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_60a9221ee5d823df95cd7c2f2c62b556746eba10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe638f0b5a3479fcc9f895a69f963292bee6bd7d">
+        <dex dex="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ff1a7fd9f4ebbae68d936645fb198066f25ee5eb\classes.dex" />
+    </item>
+
+</items>

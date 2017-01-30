@@ -1,0 +1,124 @@
+[
+    {
+        "outputFile": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 44,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 43,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 63,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endColumn": 63,
+                        "endOffset": 309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 52,
+                    "endOffset": 370
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 375,
+                    "endColumn": 51,
+                    "endOffset": 422
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 427,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 505
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 510,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 577
+                },
+                "from": {
+                    "file": "C:\\Users\\b0kn0y\\AndroidStudioProjects\\FlowerCatalog\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]
