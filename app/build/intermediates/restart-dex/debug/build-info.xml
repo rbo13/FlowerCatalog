@@ -5,55 +5,27 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="14383160600873"
+    timestamp="15662303361098"
     token="-2839227147698643021"
-    verifier="CLASS_ADDED" >
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="197" />
+        duration="217" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="86" />
+        duration="150" />
     <task
         name="verifier"
-        duration="9" />
+        duration="4" />
 
     <artifact
-        location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
+        location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build
-        timestamp="10981552319574"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="11428403191078"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="12703178005801"
-        verifier="FIELD_ADDED" >
-        <artifact
-            location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="14383160600873"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-    </build>
     <build
         timestamp="31232158317989"
         verifier="FULL_BUILD_REQUESTED" >

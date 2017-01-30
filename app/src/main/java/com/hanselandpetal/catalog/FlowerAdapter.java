@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
+import android.util.LruCache;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,10 +27,16 @@ public class FlowerAdapter extends ArrayAdapter<Flower> {
     private Context context;
     private List<Flower> flowerList;
 
+    private LruCache<Integer, Bitmap> imageCache;
+
     public FlowerAdapter(Context context, int resource, List<Flower> objects) {
         super(context, resource, objects);
         this.context = context;
         this.flowerList = objects;
+
+        final int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);
+        final int cacheSize = maxMemory / 8;
+        imageCache = new LruCache<>(cacheSize);
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -41,7 +48,9 @@ public class FlowerAdapter extends ArrayAdapter<Flower> {
         TextView textView = (TextView) view.findViewById(R.id.textView1);
         textView.setText(flower.getName());
 
-        if(flower.getBitmap() != null) {
+
+        Bitmap bitmap = imageCache.get(flower.getProductId());
+        if(bitmap != null) {
             ImageView image = (ImageView) view.findViewById(R.id.imageView1);
             image.setImageBitmap(flower.getBitmap());
         }else {
@@ -52,7 +61,6 @@ public class FlowerAdapter extends ArrayAdapter<Flower> {
             ImageLoader loader = new ImageLoader();
             loader.execute(container);
         }
-
 
         return view;
     }
@@ -91,7 +99,8 @@ public class FlowerAdapter extends ArrayAdapter<Flower> {
         protected void onPostExecute(FlowerAndView result) {
             ImageView image = (ImageView) result.view.findViewById(R.id.imageView1);
             image.setImageBitmap(result.bitmap);
-            result.flower.setBitmap(result.bitmap);
+//            result.flower.setBitmap(result.bitmap);
+            imageCache.put(result.flower.getProductId(), result.bitmap);
         }
     }
 }
