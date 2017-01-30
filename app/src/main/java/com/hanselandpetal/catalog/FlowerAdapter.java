@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.hanselandpetal.catalog.model.Flower;
@@ -34,6 +35,9 @@ public class FlowerAdapter extends ArrayAdapter<Flower> {
         Flower flower = flowerList.get(position);
         TextView textView = (TextView) view.findViewById(R.id.textView1);
         textView.setText(flower.getName());
+
+        ImageView image = (ImageView) view.findViewById(R.id.imageView1);
+        image.setImageBitmap(flower.getBitmap());
 
         return view;
     }

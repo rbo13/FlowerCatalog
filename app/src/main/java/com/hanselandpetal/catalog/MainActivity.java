@@ -2,6 +2,8 @@ package com.hanselandpetal.catalog;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -18,6 +20,8 @@ import com.hanselandpetal.catalog.model.Flower;
 import com.hanselandpetal.catalog.parsers.FlowerJSONParser;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +32,8 @@ public class MainActivity extends ListActivity {
     List<MyTask> tasks;
 
     List<Flower> flowerList;
+
+    private static final String PHOTOS_BASE_URL = "http://services.hanselandpetal.com/photos/";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -76,11 +82,10 @@ public class MainActivity extends ListActivity {
         return (networkInfo != null && networkInfo.isConnectedOrConnecting()) ? true : false;
     }
 
-    private class MyTask extends AsyncTask<String, String, String> {
+    private class MyTask extends AsyncTask<String, String, List<Flower>> {
 
         @Override
         protected void onPreExecute() {
-//            updateDisplay("Starting task");
 
             if(tasks.size() == 0){
                 pb.setVisibility(View.VISIBLE);
@@ -90,14 +95,28 @@ public class MainActivity extends ListActivity {
         }
 
         @Override
-        protected String doInBackground(String... params) {
+        protected List<Flower> doInBackground(String... params) {
 
             String content = HttpManager.getData(params[0], "feeduser", "feedpassword");
-            return content;
+            flowerList = FlowerJSONParser.parseFeed(content);
+
+            for (Flower flower : flowerList) {
+                try{
+                    String imageUrl = PHOTOS_BASE_URL + flower.getPhoto();
+                    InputStream in = (InputStream) new URL(imageUrl).getContent();
+                    Bitmap bitmap = BitmapFactory.decodeStream(in);
+                    flower.setBitmap(bitmap);
+                    in.close();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+
+            return flowerList;
         }
 
         @Override
-        protected void onPostExecute(String result) {
+        protected void onPostExecute(List<Flower> result) {
 
             tasks.remove(this);
             if(tasks.size() == 0) {
@@ -108,8 +127,6 @@ public class MainActivity extends ListActivity {
                 Toast.makeText(MainActivity.this, "Cannot connect to web service!", Toast.LENGTH_SHORT).show();
                 return;
             }
-
-            flowerList = FlowerJSONParser.parseFeed(result);
             updateDisplay();
         }
 

@@ -5,26 +5,26 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="11428403191078"
+    timestamp="12703178005801"
     token="-2839227147698643021"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
-        duration="242" />
+        duration="245" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="50" />
+        duration="39" />
     <task
         name="verifier"
-        duration="9" />
+        duration="11" />
 
     <artifact
-        location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
     <artifact
         location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
         type="DEX" />
@@ -42,6 +42,13 @@
         <artifact
             location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
+    </build>
+    <build
+        timestamp="12703178005801"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
         <artifact
             location="C:\Users\b0kn0y\AndroidStudioProjects\FlowerCatalog\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />

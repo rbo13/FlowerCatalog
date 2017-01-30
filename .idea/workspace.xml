@@ -32,6 +32,22 @@
   <component name="FavoritesManager">
     <favorites_list name="FlowerCatalog" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="FlowerAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -1567,14 +1583,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/model/Flower.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/parsers/FlowerJSONParser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/HttpManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_flower.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/model/Flower.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java" />
       </list>
     </option>
   </component>
@@ -1665,6 +1681,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowerCatalog" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2000,11 +2038,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30931264" sideWeight="0.502445" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30931264" sideWeight="0.502445" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33481154" sideWeight="0.49511003" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2020,7 +2058,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30931264" sideWeight="0.49755502" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30931264" sideWeight="0.49755502" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25305623" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -2062,40 +2100,6 @@
             <marker date="1485764376399" expanded="true" signature="540:1491" ph="{...}" />
             <marker date="1485764376399" expanded="true" signature="1497:1711" ph="/**...*/" />
             <marker date="1485764376399" expanded="true" signature="1791:3057" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/model/Flower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1485760210676" expanded="true" signature="43:85" ph="/**...*/" />
-            <marker date="1485760210676" expanded="true" signature="306:317" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="334:340" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="385:396" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="423:429" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="458:469" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="481:487" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="525:536" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="553:559" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="592:603" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="619:625" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="671:682" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="707:713" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="750:761" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="781:787" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="841:852" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="885:891" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="921:932" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="945:951" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="991:1002" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="1021:1027" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="1057:1068" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="1081:1087" ph=" }" />
-            <marker date="1485760210676" expanded="true" signature="1127:1138" ph=" { " />
-            <marker date="1485760210676" expanded="true" signature="1157:1163" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2184,19 +2188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <marker date="1485780407226" expanded="true" signature="44:302" ph="..." />
-            <marker date="1485780407226" expanded="true" signature="304:346" ph="/**...*/" />
-            <marker date="1485780407226" expanded="true" signature="552:669" ph="{...}" />
-            <marker date="1485780407226" expanded="true" signature="745:1129" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-19/android.jar!/android/app/ListActivity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -2225,26 +2216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding>
-            <marker date="1485781019729" expanded="false" signature="44:644" ph="..." />
-            <marker date="1485781019729" expanded="true" signature="852:1073" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="1133:1200" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="1266:1600" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="1643:1713" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="1750:1879" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="1914:2205" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="2274:3223" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="2333:2518" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="2596:2725" ph="{...}" />
-            <marker date="1485781019729" expanded="true" signature="2797:3216" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Bito/CBT/Android/Apps.RESTful.Web.Services/Exercise Files/04_BinaryResources/DisplayList/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -2261,6 +2232,74 @@
         <state relative-caret-position="240">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/model/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1485781596723" expanded="true" signature="76:118" ph="/**...*/" />
+            <marker date="1485781596723" expanded="false" signature="366:377" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="394:400" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="445:456" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="483:489" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="518:529" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="541:547" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="585:596" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="613:619" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="652:663" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="679:685" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="731:742" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="767:773" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="810:821" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="841:847" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="901:912" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="945:951" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="981:992" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="1005:1011" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="1051:1062" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="1081:1087" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="1117:1128" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="1141:1147" ph=" }" />
+            <marker date="1485781596723" expanded="false" signature="1187:1198" ph=" { " />
+            <marker date="1485781596723" expanded="false" signature="1217:1223" ph=" }" />
+            <marker date="1485781596723" expanded="true" signature="1254:1265" ph=" { " />
+            <marker date="1485781596723" expanded="true" signature="1279:1285" ph=" }" />
+            <marker date="1485781596723" expanded="true" signature="1327:1338" ph=" { " />
+            <marker date="1485781596723" expanded="true" signature="1359:1365" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
+          <folding>
+            <marker date="1485782188197" expanded="false" signature="44:764" ph="..." />
+            <marker date="1485782188197" expanded="true" signature="1069:1290" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="1350:1417" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="1483:1817" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="1860:1930" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="1967:2096" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="2131:2422" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="2497:3900" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="2556:2695" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="2779:3458" ph="{...}" />
+            <marker date="1485782188197" expanded="true" signature="3536:3893" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
