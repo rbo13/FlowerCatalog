@@ -34,14 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlowerAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1589,8 +1587,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/model/Flower.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2273,33 +2271,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
+        <state relative-caret-position="242">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
           <folding>
-            <marker date="1485782188197" expanded="false" signature="44:764" ph="..." />
-            <marker date="1485782188197" expanded="true" signature="1069:1290" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="1350:1417" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="1483:1817" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="1860:1930" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="1967:2096" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="2131:2422" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="2497:3900" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="2556:2695" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="2779:3458" ph="{...}" />
-            <marker date="1485782188197" expanded="true" signature="3536:3893" ph="{...}" />
+            <marker date="1485783932452" expanded="true" signature="44:484" ph="..." />
+            <marker date="1485783932452" expanded="true" signature="486:528" ph="/**...*/" />
+            <marker date="1485783932452" expanded="true" signature="734:851" ph="{...}" />
+            <marker date="1485783932452" expanded="true" signature="927:1737" ph="{...}" />
+            <marker date="1485783932452" expanded="true" signature="1763:1857" ph="{...}" />
+            <marker date="1485783932452" expanded="true" signature="1943:2928" ph="{...}" />
+            <marker date="1485783932452" expanded="true" signature="2036:2646" ph="{...}" />
+            <marker date="1485783932452" expanded="true" signature="2725:2922" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/FlowerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hanselandpetal/catalog/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="400">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
